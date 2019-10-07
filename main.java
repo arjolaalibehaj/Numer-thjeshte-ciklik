@@ -1,6 +1,6 @@
 public class CyclicPrimeNumbers { 
-    // Funksioni qe kontrollon nese nje numer eshte numer i thjeshte apo jo 
     
+    // Funksioni qe kontrollon nese nje numer eshte numer i thjeshte apo jo 
     static boolean isPrime(int n) { 
         if (n <= 1) 
             return false; 
@@ -19,8 +19,7 @@ public class CyclicPrimeNumbers {
         return true; 
     } 
   
-         // Funksioni qe kontrollon nese nje numer eshte numer ciklik i thjeshte apo jo
-    
+     // Funksioni qe kontrollon nese nje numer eshte numer ciklik i thjeshte apo jo
     static boolean checkCircular(int n) { 
         // Numerojme shifrat e numrit kryesor 
         
